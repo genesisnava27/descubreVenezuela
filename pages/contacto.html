@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!--Fonts------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+        rel="stylesheet">
+
+    <!--BS-------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!--CSS-------------->
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+
+<body>
+
+    <!--Encabezado------------------->
+    <header>
+
+        <nav class="navbar navbar-expand-lg menu-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../medios/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Explora</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cultura.html">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Contenido contacto---------->
+    <main>
+        <div class="contacto-container">
+            <div class="Contacto-texto">
+                <h1 class="titulo-contacto">Contacto</h1>
+                <p class="parrafo-contacto">Si deseas comunicarte con nosotros, te invitamos a completar el siguiente formulario. Es la manera
+                    más rápida y sencilla de hacernos llegar tus consultas, solicitudes o comentarios. Revisaremos tu mensaje y te
+                    responderemos lo antes posible.</p>
+                <p class="parrafo-contacto" >Agradecemos tu interés y estaremos atentos a tu comunicación, ya que tu
+                    opinión es muy importante para nosotros y nos ayuda a seguir mejorando. </p>
+            </div>
+            <!--Formulario--------------->
+            <div class="formulario-conten">
+                <form action="#">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="Ejemplo@email.com">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" required placeholder="Dejanos tu mensaje"
+                        rows="5"></textarea>
+
+                    <input type="submit" value="Envíar">
+                    <input type="reset" value="Limpiar datos">
+                </form>
+            </div>
+
+            <div class="banderav">
+                <img class="bandera-1" src="../medios/banderaven.jpg" alt="bandera-venezolana">
+            </div>
+        </div>
+    </main>
+
+    <!--Cierre de pagina----------------->
+    <footer>
+
+        <section>
+            <div class="redes">
+                <!--Redes Sociales----------->
+                <h4 class="conocenos">Conocenos</h4>
+
+                <!--Facebook------------>
+                <a href="https://www.facebook.com/"><img class="conocenos-logos" src="../Medios/facebook.png"
+                        alt="Facebook"></a>
+                <p>DescubreVenezuela</p>
+
+
+                <!--Instagram----------->
+                <a href="https://www.instagram.com/"><img class="conocenos-logos" src="../Medios/instagram.png"
+                        alt="Instagram"></a>
+                <p>@DescubreVenezuela</p>
+
+
+                <!--WhatsApp------------>
+                <a href="https://web.whatsapp.com/"><img class="conocenos-logos" src="../Medios/whatsapp.png"
+                        alt="WhatsApp"></a>
+                <p>1155223311</p>
+
+                <!--Youtube------------->
+                <a href="https://www.youtube.com/"><img class="conocenos-logos" src="../Medios/youtube.png"
+                        alt="Youtube"></a>
+                <p>@DescubreVenezuela</p>
+
+                <!--Mail-->
+                <img class="conocenos-logos" src="../Medios/email.png" alt="Mail">
+                <p>Descubrevenezuela@gmail.com</p>
+            </div>
+        </section>
+
+    </footer>
+
+
+    <!--js bs------------------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

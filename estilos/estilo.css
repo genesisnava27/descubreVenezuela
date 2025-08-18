@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+body {
+    background-color: #e5ddbc;
+}
+
+/*header-------------------------*/
+
+.menu-1 {
+    background-color: #1B3C53;
+}
+
+header img {
+    width: 50px;
+}
+
+.menu-1 a {
+    color: white;
+    border: white 2px solid;
+    border-radius: 15px;
+    margin-inline: 15px;
+
+}
+
+
+/**-----index----------------------*/
+
+.texto-inicio {
+    background-image: url(../medios/fondob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.texto-inicio-varios {
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+.titulo1 {
+    font-size: 50px;
+}
+
+.titulo2,
+.parrafo-2 {
+    font-size: 30px;
+}
+
+.parrafo-1 {
+    font-size: 15px;
+    padding: 20px;
+}
+
+.titulo1,
+.titulo2,
+.parrafo-1,
+.parrafo-2 {
+    display: flex;
+    justify-content: center;
+}
+
+/**-----index sección imagenes---------------------*/
+
+.seccion-imagen {
+    width: 22%;
+    height: 250px;
+    padding-top: 20px;
+    display: inline-block;
+    margin-inline: 1.2%;
+}
+
+.seccion-imagen1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: white 2px solid;
+}
+
+.seccion-imagen-titulo {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+/**-----cultura-------------**/
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 300px repeat(6, 500px);
+    grid-template-areas:
+        "titulo-texto titulo-texto"
+        "subtitulo-texto1 imagen1"
+        "imagen2 subtitulo-texto2"
+        "subtitulo-texto3 imagen3"
+        "imagen4 subtitulo-texto4"
+        "subtitulo-texto5 imagen5"
+        "imagen6 subtitulo-texto6";
+    align-items: center;
+}
+
+.titulo-texto {
+    grid-area: titulo-texto;
+    background-color: #abc6d9;
+    border-radius: 20px;
+}
+
+.subtitulo-texto1 {
+    grid-area: subtitulo-texto1;
+    background-color: #ff202034;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.imagen1 {
+    grid-area: imagen1;
+}
+
+.subtitulo-texto2 {
+    grid-area: subtitulo-texto2;
+    background-color: #ffdc5189;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.subtitulo-texto3 {
+    grid-area: subtitulo-texto3;
+    background-color: #abc6d9;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.imagen3 {
+    grid-area: imagen3;
+}
+
+.subtitulo-texto4 {
+    grid-area: subtitulo-texto4;
+    background-color: #ff202034;
+    border-radius: 15px;
+    justify-items: center;
+
+}
+
+.imagen4 {
+    grid-area: imagen4;
+}
+
+.subtitulo-texto5 {
+    grid-area: subtitulo-texto5;
+    background-color: #ffdc5189;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.imagen5 {
+    grid-area: imagen5;
+}
+
+.subtitulo-texto6 {
+    grid-area: subtitulo-texto6;
+    background-color: #abc6d9;
+    border-radius: 15px;
+    justify-items: center;
+}
+
+.imagen6 {
+    grid-area: imagen6;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/**--explora----------------------*/
+
+.imagen-e {
+    display: flex;
+    display: inline-block;
+    width: 32%;
+    height: 500px;
+    margin-inline: 0.5%;
+    border-radius: 50px;
+    border: white 2px solid;
+}
+
+
+.explora-titulo {
+    display: flex;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #abc6d9;
+    border-radius: 20px;
+}
+
+.titulo-explora,
+.parrafo-explora {
+    display: flex;
+    justify-content: center;
+}
+
+.frase {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.subtitulo-4,
+.subtitulo-8 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #abc6d9;
+    border-radius: 30px;
+}
+
+.subtitulosolo-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo-2,
+.subtitulo-5,
+.subtitulo-7 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #ff202034;
+    border-radius: 30px;
+}
+
+.subtitulo-3,
+.subtitulo-6,
+.subtitulo-1 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #ffdc5189;
+    border-radius: 30px;
+}
+
+.caracteristicas-1,
+.caracteristicas-4,
+.caracteristicas-8 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #ff202034;
+    border-radius: 30px;
+}
+
+.caracteristicas-2,
+.caracteristicas-5,
+.caracteristicas-7 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #ffdc5189;
+    border-radius: 30px;
+}
+
+.caracteristicas-3,
+.caracteristicas-6 {
+    margin: 15px;
+    padding: 10px;
+    background-color: #abc6d9;
+    border-radius: 30px;
+}
+
+.subtitulosolo-videos {
+    display: flex;
+    justify-content: center;
+    background-color: #ffdc5189;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.video1,
+.video2,
+.video3,
+.video4,
+.video5,
+.video6 {
+    width: 30%;
+    height: 300px;
+    margin-inline: 1.5%;
+    border-radius: 20px;
+    border: white 2px solid;
+}
+
+/**-----contacto-----------**/
+
+
+
+.contacto-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 46% 46%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "contacto formulario"
+        "imagen imagen";
+        justify-items: center;
+        align-items: center;
+    }
+
+.contacto-texto {
+    grid-area: contacto;
+    border-radius: 20px;
+}
+
+.formulario-conten {
+    grid-area: formulario;
+    padding: 15px;
+    background-color: #abc6d9;
+    border-radius: 20px;
+}
+
+.banderav {
+    grid-area: imagen;
+}
+
+
+.titulo-contacto {
+    display: grid;
+    justify-content: center;
+}
+
+.parrafo-contacto,
+.titulo-contacto {
+    display: grid;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    background-color:#ffdc5189;
+    border-radius: 10px;
+}
+
+/*footer------------------*/
+
+
+footer {
+    background-color: #1B3C53;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes-texto {
+    display: flex;
+    align-items: center;
+}
+
+.conocenos-logos {
+    width: 50px;
+    height: 50px;
+}
