@@ -313,9 +313,9 @@ header img {
     grid-template-areas:
         "contacto formulario"
         "imagen imagen";
-        justify-items: center;
-        align-items: center;
-    }
+    justify-items: center;
+    align-items: center;
+}
 
 .contacto-texto {
     grid-area: contacto;
@@ -327,10 +327,16 @@ header img {
     padding: 15px;
     background-color: #abc6d9;
     border-radius: 20px;
+    text-align: center;
+    margin-bottom: 3;
+
 }
 
 .banderav {
     grid-area: imagen;
+    padding: 5%;
+    background-color: #ff202034;
+    border-radius: 20px;
 }
 
 
@@ -344,22 +350,31 @@ header img {
     display: grid;
     margin: 0 20px 0 20px;
     padding: 10px;
-    background-color:#ffdc5189;
-    border-radius: 10px;
+    background-color: #ffdc5189;
+    border-radius: 20px;
 }
 
-/*footer------------------*/
+.bandera-1 {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
 
+
+
+/*footer------------------*/
 
 footer {
     background-color: #1B3C53;
     color: white;
     margin-top: 20px;
     padding: 10px;
+
 }
 
 .redes {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
@@ -370,6 +385,110 @@ footer {
 }
 
 .conocenos-logos {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+/*mq 480px------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    /*cultura------------------------*/
+
+    .container {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(13, 1fr);
+        grid-template-areas:
+            "titulo-texto"
+            "subtitulo-texto1"
+            "imagen1"
+            "subtitulo-texto2"
+            "imagen2"
+            "subtitulo-texto3"
+            "imagen3"
+            "subtitulo-texto4"
+            "imagen4"
+            "subtitulo-texto5"
+            "imagen5"
+            "subtitulo-texto6"
+            "imagen6";
+        align-items: center;
+    }
+
+    .subtitulo-texto1,
+    .subtitulo-texto2,
+    .subtitulo-texto3,
+    .subtitulo-texto4,
+    .subtitulo-texto5,
+    .subtitulo-texto6 {
+        display: grid;
+        justify-items: center;
+    }
+
+    /*Footer---------------------*/
+
+    .redes {
+        flex-direction: column;
+    }
+
+    /*Contacto------------*/
+
+    .contacto-container {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "Contacto"
+            "formulario"
+            "imagen";
+        align-items: center;
+    }
+
+    .bandera-1,
+    .banderav {
+        display: grid;
+        width: 98%;
+    }
+
+    /*Index-----------------*/
+    .seccion-imagen {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        height: 300px;
+    }
+
+    .titulo1,
+    .titulo2,
+    .parrafo-1,
+    .parrafo-2 {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Explora-------------------*/
+
+    .img-explora,
+    .imagen-e {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 98%;
+        margin: 1%;
+    }
+
+    .videos,
+    .video1,
+    .video2,
+    .video3,
+    .video4,
+    .video5,
+    .video6 {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+    }
+
 }
