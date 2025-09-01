@@ -1,0 +1,15 @@
+/*animacion---------------------*/
+
+.seccion-imagen1 {
+    animation: imagenmovimiento 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes imagenmovimiento {
+
+    100% {
+        height: 105%;
+        width: 105%;
+    }
+}

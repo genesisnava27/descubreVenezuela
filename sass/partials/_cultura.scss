@@ -1,0 +1,124 @@
+@use "variables" as*;
+
+/*Main Cultura-------------*/
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: center;
+    grid-template-rows: 300px repeat(6, 500px);
+    grid-template-areas:
+        "titulo-texto titulo-texto"
+        "subtitulo-texto1 imagen1"
+        "imagen2 subtitulo-texto2"
+        "subtitulo-texto3 imagen3"
+        "imagen4 subtitulo-texto4"
+        "subtitulo-texto5 imagen5"
+        "imagen6 subtitulo-texto6";
+    align-items: center;
+
+    .titulo-texto {
+        grid-area: titulo-texto;
+        background-color: $azulclaro;
+        padding: 8px;
+        border-radius: 15px 60px;
+        border: white 3px solid;
+    }
+
+    .titulo1 {
+        display: grid;
+        justify-content: center;
+    }
+
+    .subtitulo-texto1 {
+        grid-area: subtitulo-texto1;
+        background-color: $rojo;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .imagen1 {
+        grid-area: imagen1;
+    }
+
+    .subtitulo-texto2 {
+        grid-area: subtitulo-texto2;
+        background-color: $amarillo;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .imagen2 {
+        grid-area: imagen2;
+    }
+
+    .subtitulo-texto3 {
+        grid-area: subtitulo-texto3;
+        background-color: $azulclaro;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .imagen3 {
+        grid-area: imagen3;
+    }
+
+    .subtitulo-texto4 {
+        grid-area: subtitulo-texto4;
+        background-color: $rojo;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+
+    }
+
+    .imagen4 {
+        grid-area: imagen4;
+    }
+
+    .subtitulo-texto5 {
+        grid-area: subtitulo-texto5;
+        background-color: $amarillo;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .imagen5 {
+        grid-area: imagen5;
+    }
+
+    .subtitulo-texto6 {
+        grid-area: subtitulo-texto6;
+        background-color: $azulclaro;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+        margin: 8px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    .imagen6 {
+        grid-area: imagen6;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}

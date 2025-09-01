@@ -1,0 +1,139 @@
+@use "variables" as*;
+
+/*main explora---------*/
+
+.main-explora {
+
+    .explora-titulo {
+        display: flex;
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        background-color: $azulclaro;
+        border-radius: 15px 60px;
+        border: white 3px solid;
+
+        .titulo-explora {
+            display: flex;
+            justify-content: center;
+        }
+
+        .parrafo-explora {
+            @extend .titulo-explora
+        }
+
+        .frase {
+            @extend .titulo-explora;
+            font-size: 20px;
+        }
+    }
+
+    .subtitulo-3,
+    .subtitulo-6,
+    .subtitulo-1 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $amarillo;
+        padding: 8px;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+
+        .subtitulosolo-1 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .caracteristicas-1,
+    .caracteristicas-4,
+    .caracteristicas-8 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $rojo;
+        padding: 8px;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+    }
+
+    .imagen-e {
+        display: flex;
+        display: inline-block;
+        width: 32%;
+        height: 400px;
+        margin-inline: 0.5%;
+        border-radius: 50px;
+        border: white 2px solid;
+    }
+
+    .subtitulo-2,
+    .subtitulo-5,
+    .subtitulo-7 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $rojo;
+        padding: 8px;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+    }
+
+    .caracteristicas-2,
+    .caracteristicas-5,
+    .caracteristicas-7 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $amarillo;
+        padding: 8px;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+    }
+
+    .caracteristicas-3,
+    .caracteristicas-6 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $azulclaro;
+        padding: 8px;
+        border-radius: 15px 60px;
+        border: white 2px solid;
+    }
+
+    .subtitulo-4,
+    .subtitulo-8 {
+        margin: 15px;
+        padding: 10px;
+        background-color: $azulclaro;
+        padding: 8px;
+        border-radius: 60px 15px;
+        border: white 2px solid;
+    }
+
+    .titulo-videos {
+        .subtitulosolo-videos {
+            display: flex;
+            justify-content: center;
+            background-color: $amarillo;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 15px 60px;
+            border: white 2px solid;
+        }
+    }
+
+    .videos {
+        .video1,
+        .video2,
+        .video3,
+        .video4,
+        .video5,
+        .video6 {
+            width: 30%;
+            height: 300px;
+            margin-inline: 1.5%;
+            border-radius: 60px 15px;
+            border: white 2px solid;
+        }
+    }
+
+
+
+}

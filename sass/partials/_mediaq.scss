@@ -1,0 +1,156 @@
+@use "variables" as*;
+
+/*mediaq 480px---------------*/
+
+@media screen and (max-width: 480px) {
+
+    /*index---------------------*/
+    body {
+
+        background-color: $fondo;
+
+        .texto-inicio {
+            .texto-inicio-varios {
+
+                .titulo1,
+                .titulo2,
+                .parrafo-1,
+                .parrafo-2 {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+        }
+
+        .seccion-imagen {
+            display: flex;
+            flex-direction: column;
+            width: 92%;
+            height: 350px;
+        }
+
+
+        /*Explora-------------------*/
+
+        .main-explora {
+            .img-explora {
+                .imagen-e {
+                    display: flex;
+                    flex-direction: column;
+                    height: auto;
+                    width: 98%;
+                    margin: 1%;
+                }
+            }
+
+            .videos {
+
+                .videos,
+                .video1,
+                .video2,
+                .video3,
+                .video4,
+                .video5,
+                .video6 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 98%;
+                }
+            }
+
+        }
+
+        /*cultura--------------*/
+        .container {
+            height: 5000px;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(13, 1fr);
+            grid-template-areas:
+                "titulo-texto"
+                "subtitulo-texto1"
+                "imagen1"
+                "subtitulo-texto2"
+                "imagen2"
+                "subtitulo-texto3"
+                "imagen3"
+                "subtitulo-texto4"
+                "imagen4"
+                "subtitulo-texto5"
+                "imagen5"
+                "subtitulo-texto6"
+                "imagen6";
+            align-items: center;
+
+            .titulo-texto {
+                margin: 10px;
+            }
+
+            .subtitulo-texto1,
+            .subtitulo-texto2,
+            .subtitulo-texto3,
+            .subtitulo-texto4,
+            .subtitulo-texto5,
+            .subtitulo-texto6 {
+                display: grid;
+                justify-items: center;
+            }
+        }
+
+        /*contacto--------------*/
+
+        .contacto-container {
+            height: auto;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+                "contac-t2"
+                "formulario"
+                "imagen";
+            align-items: center;
+
+
+            .formulario-conten {
+                width: 95%;
+                height: 100%;
+                margin: 20px;
+
+                input,
+                textarea {
+                    display: flex;
+                    width: 100%;
+                }
+
+                label {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 18px;
+                }
+
+                .boton-form {
+                    background-color: $azuloscuro;
+                    color: white;
+                    width: 100%;
+                    border: white 2px solid;
+                }
+            }
+
+            .banderav {
+                .bandera-1 {
+                    display: grid;
+                    width: 98%;
+                }
+            }
+        }
+
+    }
+
+    /*Footer-------------*/
+
+    footer {
+        .redes {
+            flex-direction: column;
+        }
+    }
+
+}

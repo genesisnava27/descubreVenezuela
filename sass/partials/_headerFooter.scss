@@ -1,0 +1,43 @@
+@use "variables" as*;
+
+
+/*header----------------*/
+
+header {
+    .menu-1 {
+        background-color: $azuloscuro;
+
+        a {
+            color: white;
+            border: white 2px solid;
+            border-radius: 20px;
+            margin-inline: 20px;
+        }
+
+        img {
+            width: 50px;
+        }
+    }
+}
+
+/*Footer------------------------*/
+
+
+footer {
+    background-color: #1B3C53;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        .conocenos-logos {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
