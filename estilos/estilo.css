@@ -22,8 +22,8 @@ header img {
 .menu-1 a {
     color: white;
     border: white 2px solid;
-    border-radius: 15px;
-    margin-inline: 15px;
+    border-radius: 20px;
+    margin-inline: 20px;
 
 }
 
@@ -55,7 +55,7 @@ header img {
 
 .parrafo-1 {
     font-size: 15px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .titulo1,
@@ -70,24 +70,27 @@ header img {
 
 .seccion-imagen {
     width: 22%;
-    height: auto;
+    height: 250px;
     padding-top: 20px;
     display: inline-block;
     margin-inline: 1.2%;
+
 }
 
 .seccion-imagen1 {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    border: white 2px solid;
+    border-radius: 15px 60px;
+    border: white 4px solid;
 }
 
 .seccion-imagen-titulo {
     text-align: center;
     font-size: 20px;
     padding: 5px;
-    text-decoration: underline;
+    background-color: #1B3C53;
+    color: white;
+    border-radius: 60px 15px;
 }
 
 /**-----cultura-------------**/
@@ -95,7 +98,8 @@ header img {
 .container {
     width: 100%;
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 49% 49%;
+    justify-content: center;
     grid-template-rows: 300px repeat(6, 500px);
     grid-template-areas:
         "titulo-texto titulo-texto"
@@ -111,13 +115,18 @@ header img {
 .titulo-texto {
     grid-area: titulo-texto;
     background-color: #abc6d9;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 15px 60px;
+    border: white 3px solid;
 }
 
 .subtitulo-texto1 {
     grid-area: subtitulo-texto1;
     background-color: #ff202034;
-    border-radius: 15px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -128,7 +137,10 @@ header img {
 .subtitulo-texto2 {
     grid-area: subtitulo-texto2;
     background-color: #ffdc5189;
-    border-radius: 15px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -139,7 +151,10 @@ header img {
 .subtitulo-texto3 {
     grid-area: subtitulo-texto3;
     background-color: #abc6d9;
-    border-radius: 15px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -150,7 +165,10 @@ header img {
 .subtitulo-texto4 {
     grid-area: subtitulo-texto4;
     background-color: #ff202034;
-    border-radius: 15px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 
 }
@@ -162,7 +180,10 @@ header img {
 .subtitulo-texto5 {
     grid-area: subtitulo-texto5;
     background-color: #ffdc5189;
-    border-radius: 15px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -173,7 +194,10 @@ header img {
 .subtitulo-texto6 {
     grid-area: subtitulo-texto6;
     background-color: #abc6d9;
-    border-radius: 15px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
+    margin: 8px;
+    padding: 10px;
     justify-items: center;
 }
 
@@ -194,7 +218,7 @@ header img {
     display: flex;
     display: inline-block;
     width: 32%;
-    height: 500px;
+    height: 400px;
     margin-inline: 0.5%;
     border-radius: 50px;
     border: white 2px solid;
@@ -207,7 +231,8 @@ header img {
     margin: 20px;
     padding: 20px;
     background-color: #abc6d9;
-    border-radius: 20px;
+    border-radius: 15px 60px;
+    border: white 3px solid;
 }
 
 .titulo-explora,
@@ -227,7 +252,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #abc6d9;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
 }
 
 .subtitulosolo-1 {
@@ -241,7 +268,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #ff202034;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
 }
 
 .subtitulo-3,
@@ -250,7 +279,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #ffdc5189;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
 }
 
 .caracteristicas-1,
@@ -259,7 +290,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #ff202034;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
 }
 
 .caracteristicas-2,
@@ -268,7 +301,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #ffdc5189;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 60px 15px;
+    border: white 2px solid;
 }
 
 .caracteristicas-3,
@@ -276,7 +311,9 @@ header img {
     margin: 15px;
     padding: 10px;
     background-color: #abc6d9;
-    border-radius: 30px;
+    padding: 8px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
 }
 
 .subtitulosolo-videos {
@@ -285,7 +322,8 @@ header img {
     background-color: #ffdc5189;
     margin: 20px;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 15px 60px;
+    border: white 2px solid;
 }
 
 .video1,
@@ -297,18 +335,17 @@ header img {
     width: 30%;
     height: 300px;
     margin-inline: 1.5%;
-    border-radius: 20px;
+    border-radius: 60px 15px;
     border: white 2px solid;
 }
 
 /**-----contacto-----------**/
 
-
-
 .contacto-container {
-    width: 100%;
     display: grid;
-    grid-template-columns: 46% 46%;
+    width: 100%;
+    grid-template-columns: 49% 49%;
+    justify-content: center;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         "contacto formulario"
@@ -324,42 +361,69 @@ header img {
 
 .formulario-conten {
     grid-area: formulario;
-    padding: 15px;
+    padding: 10px;
     background-color: #abc6d9;
-    border-radius: 20px;
-    text-align: center;
-    margin-bottom: 3;
-
+    border-radius: 60px 15px;
+    border: white 3px solid;
+    width: 80%;
+    height: 80%;
 }
 
 .banderav {
     grid-area: imagen;
     padding: 5%;
     background-color: #ff202034;
-    border-radius: 20px;
+    border-radius: 15px 60px;
+    border: white 3px solid;
 }
-
 
 .titulo-contacto {
     display: grid;
     justify-content: center;
 }
 
-.parrafo-contacto,
-.titulo-contacto {
-    display: grid;
-    margin: 0 20px 0 20px;
-    padding: 10px;
-    background-color: #ffdc5189;
-    border-radius: 20px;
+input,
+textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-self: center;
+    width: 60%;
+    border-radius: 10px;
+    border: white 1px solid;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
 }
 
 .bandera-1 {
     width: 500px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 60px 15px;
+    border: white 3px solid;
 }
 
+.contac-t2 {
+    display: grid;
+    background-color: #ffdc5189;
+    border-radius: 15px 60px;
+    border: white 3px solid;
+    margin: 20px;
+    padding: 15px;
+    width: 80%;
+    justify-self: center;
+}
+
+.boton-form {
+    background-color: #1B3C53;
+    color: white;
+    width: 30%;
+    border: white 2px solid;
+}
 
 
 /*footer------------------*/
@@ -396,7 +460,7 @@ footer {
     /*cultura------------------------*/
 
     .container {
-        height: auto;
+        height: 5000px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(13, 1fr);
         grid-template-areas:
@@ -426,6 +490,10 @@ footer {
         justify-items: center;
     }
 
+    .titulo-texto {
+        margin: 10px;
+    }
+
     /*Footer---------------------*/
 
     .redes {
@@ -451,12 +519,37 @@ footer {
         width: 98%;
     }
 
+    .formulario-conten {
+        width: 95%;
+        height: 100%;
+        margin: 20px;
+    }
+
+    input,
+    textarea {
+        display: flex;
+        width: 100%;
+    }
+
+    label {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .boton-form {
+        background-color: #1B3C53;
+        color: white;
+        width: 100%;
+        border: white 2px solid;
+    }
+
     /*Index-----------------*/
     .seccion-imagen {
         display: flex;
         flex-direction: column;
-        width: 98%;
-        height: 300px;
+        width: 92%;
+        height: 350px;
     }
 
     .titulo1,
@@ -491,4 +584,20 @@ footer {
         width: 98%;
     }
 
+}
+
+/*Animación--------------------*/
+
+.seccion-imagen1 {
+    animation: imagenmovimiento 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes imagenmovimiento {
+    
+    100% {
+        height: 105%;
+        width: 105%;
+    }
 }
