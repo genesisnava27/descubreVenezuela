@@ -22,6 +22,7 @@ footer {
 }
 footer .redes {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -192,7 +193,7 @@ body .seccion-imagen .seccion-imagen-titulo {
 .main-explora .videos .video5,
 .main-explora .videos .video6 {
   width: 30%;
-  height: 300px;
+  min-height: auto;
   margin-inline: 1.5%;
   border-radius: 60px 15px;
   border: white 2px solid;
@@ -329,7 +330,7 @@ body .seccion-imagen .seccion-imagen-titulo {
   border-radius: 60px 15px;
   border: white 3px solid;
   width: 80%;
-  height: 80%;
+  height: auto;
 }
 .contacto-container .formulario-conten input,
 .contacto-container .formulario-conten textarea {
@@ -362,7 +363,7 @@ body .seccion-imagen .seccion-imagen-titulo {
 }
 .contacto-container .bandera-1 {
   width: 500px;
-  height: 300px;
+  min-height: auto;
   border-radius: 60px 15px;
   border: white 3px solid;
 }
@@ -376,11 +377,11 @@ body .seccion-imagen .seccion-imagen-titulo {
 
 @keyframes imagenmovimiento {
   100% {
-    height: 105%;
-    width: 105%;
+    height: 103%;
+    width: 103%;
   }
 }
-/*mediaq 480px---------------*/
+/*mediaq mobile---------------*/
 @media screen and (max-width: 480px) {
   /*index---------------------*/
   body {
@@ -395,18 +396,19 @@ body .seccion-imagen .seccion-imagen-titulo {
   body .texto-inicio .texto-inicio-varios .parrafo-2 {
     display: flex;
     justify-content: center;
+    padding: 0 10px 0 10px;
   }
   body .seccion-imagen {
     display: flex;
     flex-direction: column;
     width: 92%;
-    height: 350px;
+    margin-bottom: 30px;
   }
   body .main-explora .img-explora .imagen-e {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 98%;
+    width: 97%;
     margin: 1%;
   }
   body .main-explora .videos .videos,
@@ -448,7 +450,7 @@ body .seccion-imagen .seccion-imagen-titulo {
   }
   body .contacto-container .formulario-conten {
     width: 95%;
-    height: 100%;
+    height: auto;
     margin: 20px;
   }
   body .contacto-container .formulario-conten input,
@@ -472,6 +474,13 @@ body .seccion-imagen .seccion-imagen-titulo {
     width: 98%;
   }
   /*Footer-------------*/
+  footer .redes {
+    flex-direction: column;
+  }
+}
+/*Mediaq Tablet*/
+@media screen and (min-width: 481px) and (max-width: 978px) {
+  /*Footer---------*/
   footer .redes {
     flex-direction: column;
   }
